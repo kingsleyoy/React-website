@@ -1,0 +1,40 @@
+.contact-container{
+    width: 100%;
+}
+
+.contact-holder{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact-content{
+    color: #fff;
+}
+
+.contact-content h2{
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(255, 165, 0);
+}
+
+.contact-location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.contact-map{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:700px){
+    .contact-location{
+        width: 90%;
+        height: 250px;
+    }
+}
